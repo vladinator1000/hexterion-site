@@ -1,20 +1,40 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import Logo from "../components/Logo/Logo"
 import SEO from "../components/seo"
+
+import CallToAction from "../components/CallToAction"
+
+import "./index.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <SEO
+      title="Rebound"
+      keywords={["rebound", "dodgeball", "game", "sci-fi", "scifi"]}
+    />
+    <Logo />
+
+    <section className="content">
+      <p className="description">
+        Dive into intense local multiplayer dodgeball. An out of control mess of
+        crazed rebounding action! There is nowhere to hide with the top down
+        camera, so stay on the move! 2-4 players face off in a free-for-all
+        deathmatch arena. One hit and you’re out.
+      </p>
+      <div className="button-group">
+        <CallToAction
+          className="gradient-border"
+          external
+          color="primary"
+          to="https://www.youtube.com/watch?v=YH5oCHWW4tk"
+        >
+          Watch Trailer
+        </CallToAction>
+        <CallToAction to="/press/">Press Kit</CallToAction>
+      </div>
+    </section>
   </Layout>
 )
 
