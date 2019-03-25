@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import theme from "../../theme"
 
 const getStyle = color => ({
+  color: "white",
   padding: theme.sizes.xs,
   marginBottom: theme.sizes.xs,
   marginRight: theme.sizes.xs,

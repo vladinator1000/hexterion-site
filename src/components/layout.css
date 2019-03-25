@@ -6,6 +6,8 @@ html {
 
 p,
 a,
+li,
+span,
 h1,
 h2,
 h3,
@@ -17,6 +19,18 @@ h6 {
   text-decoration: none;
 }
 
+h1 {
+  margin-bottom: 1rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.618rem;
+}
+
 a:visited {
   color: rgb(241, 241, 241);
   text-decoration: none;
@@ -24,15 +38,13 @@ a:visited {
 
 body {
   margin: 0;
-  display: flex;
-  flex-flow: column;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: black;
 }
 
 main {
-  background: url(../images/groupActionShot.png) no-repeat center center fixed;
+  background: url(../images/groupActionShot.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -44,7 +56,9 @@ main {
 
 @media screen and (max-width: 640px) {
   main {
-    background: url(../images/Tall_Portrait_ish.png) no-repeat center center
+    /*  */
+    /* flex-direction: column; */
+    background: url(../images/Tall_Portrait_ish.jpg) no-repeat center center
       fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -95,4 +109,34 @@ main {
   100% {
     background-position: 0% 50%;
   }
+}
+
+a {
+  color: rgb(151, 151, 255);
+}
+
+section {
+  margin-bottom: 2.618rem;
+}
+
+.card {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  padding: 1rem;
+  background: rgb(45, 44, 56);
+  border-radius: 3px;
+}
+
+@media screen and (min-width: 640px) {
+  .card {
+    max-width: fit-content;
+  }
+}
+
+ul {
+  margin-left: 1rem;
+  margin-bottom: 0;
 }
