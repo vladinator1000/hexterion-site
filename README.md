@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9a362d25-2133-4b93-91be-27c4f650fa35/deploy-status)](https://app.netlify.com/sites/hexterion/deploys)
+
 ![](./site_screenshot.jpg)
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
