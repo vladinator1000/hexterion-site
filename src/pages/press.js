@@ -38,14 +38,14 @@ const SecondPage = () => (
       <h4>Developer</h4>
       <p>
         We are Hexterion. A studio made up of graduates from Glasgow Caledonian
-        University founded after winning the 2016 Dare to be Digital competition
-        and being nominated for the “Ones to Watch” award at the 2017 BAFTA game
-        awards with Rebound. Rebound is the first official game produced by
-        Hexterion
+        University, founded after winning the 2016 Dare to be Digital
+        competition and being nominated for the “Ones to Watch” award at the
+        2017 BAFTA game awards with Rebound. Rebound is the first official game
+        produced by Hexterion
       </p>
       <h4>Social and Contact</h4>
       <a
-        href="twitter.com/reboundthegame"
+        href="https://twitter.com/reboundthegame"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -53,7 +53,7 @@ const SecondPage = () => (
       </a>
       <br />
       <a
-        href="facebook.com/reboundthegame"
+        href="https://facebook.com/reboundthegame"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -74,11 +74,11 @@ const SecondPage = () => (
           2-4 players local and online deathmatch <b>multiplayer</b>
         </li>
         <li>
-          <b>Mutators</b>: rule altering modifiers such as bomb ball, tether
-          ball and time glitch
+          Rule altering <b>mutators</b> such as bomb ball, tether ball and time
+          glitch
         </li>
-        <li>Combine diferent maps and mutators for deep variety</li>
-        <li>Single player challenge mode</li>
+        <li>Combine different maps and mutators for deep variety</li>
+        <li>Includes bots and single player challenges</li>
       </ul>
     </section>
     {/* <section className="card" id="videos">
