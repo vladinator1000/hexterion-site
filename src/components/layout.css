@@ -64,7 +64,9 @@ main {
     -o-background-size: cover;
     background-size: cover;
     padding: 1rem;
-    /* margin-bottom: 1rem; */
+
+    align-items: center;
+    justify-content: center;
   }
 }
 

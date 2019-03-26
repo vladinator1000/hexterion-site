@@ -19,11 +19,6 @@ function getStyle(isLandingPage = false) {
       display: "flex",
       flexDirection: "column",
       height: "100vh",
-
-      ...(window.innerWidth <= 640 && {
-        alignItems: "center",
-        justifyContent: "center",
-      }),
     }
   }
 
