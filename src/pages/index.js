@@ -9,7 +9,7 @@ import CallToAction from "../components/CallToAction"
 import "./index.css"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout isLandingPage>
     <SEO
       title="Rebound"
       keywords={["rebound", "dodgeball", "game", "sci-fi", "scifi"]}

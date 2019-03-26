@@ -13,7 +13,24 @@ import { StaticQuery, graphql } from "gatsby"
 // import theme from "../theme"
 import "./layout.css"
 
-const Layout = ({ children }) => (
+function getStyle(isLandingPage = false) {
+  if (isLandingPage) {
+    return {
+      display: "flex",
+      flexDirection: "column",
+      height: "100vh",
+
+      ...(window.innerWidth <= 640 && {
+        alignItems: "center",
+        justifyContent: "center",
+      }),
+    }
+  }
+
+  return {}
+}
+
+const Layout = ({ isLandingPage, children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -27,7 +44,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
-        <main style={{}}>{children}</main>
+        <main style={getStyle(isLandingPage)}>{children}</main>
         {/* <footer style={{ minHeight: "60px" }}>
           © {new Date().getFullYear()} Hexterion
         </footer> */}

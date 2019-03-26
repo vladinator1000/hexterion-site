@@ -21,16 +21,16 @@ const SecondPage = () => (
       ]}
     />
     <Logo />
-    <span style={{ display: "flex", alignItems: "baseline" }}>
-      <h1 style={{ marginRight: "0.618rem" }}>Press Kit</h1>
+    <h1 style={{ marginRight: "0.618rem" }}>Press Kit</h1>
+    <section className="card">
       <a
         target="_blank"
         rel="noopener noreferrer"
         href="https://drive.google.com/open?id=1v9nxULy7mm272h4GthNujHxVlMHFaiYK"
       >
-        Download images and videos
+        Images and videos
       </a>
-    </span>
+    </section>
     <section className="card" id="fact-sheet">
       <a href="#fact-sheet">
         <h2>Fact Sheet</h2>

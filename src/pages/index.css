@@ -3,13 +3,6 @@ p {
 }
 
 @media screen and (max-width: 640px) {
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
   .content {
     display: flex;
     flex-direction: column;
