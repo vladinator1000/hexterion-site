@@ -16,7 +16,6 @@ const IndexPage = () => (
       keywords={["rebound", "dodgeball", "game", "sci-fi", "scifi"]}
     />
     <Logo />
-    <h1 className="subtitle">DODGEBALL EVOLVED</h1>
 
     <section className="content">
       <p className="description">

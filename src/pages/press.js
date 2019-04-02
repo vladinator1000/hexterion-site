@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Logo from "../components/Logo"
 import Layout from "../components/layout"
+import Icon from "../components/Icon"
 import SEO from "../components/seo"
 
 const SecondPage = () => (
@@ -28,12 +29,17 @@ const SecondPage = () => (
         rel="noopener noreferrer"
         href="https://drive.google.com/open?id=1v9nxULy7mm272h4GthNujHxVlMHFaiYK"
       >
-        Images and videos
+        <h2 style={{ margin: 0 }}>
+          <Icon name="camera" />{" "}
+          <span style={{ color: "rgb(151, 151, 255)" }}>Images and videos</span>
+        </h2>
       </a>
     </section>
     <section className="card" id="fact-sheet">
       <a href="#developer">
-        <h2>Developer</h2>
+        <h2>
+          <Icon name="code" /> Developer
+        </h2>
       </a>
       <p>
         We are Hexterion. A studio made up of graduates from Glasgow Caledonian
@@ -48,7 +54,7 @@ const SecondPage = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        twitter.com/reboundthegame
+        <Icon name="twitter" /> twitter.com/reboundthegame
       </a>
       <br />
       <a
@@ -56,13 +62,17 @@ const SecondPage = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        facebook.com/reboundthegame
+        <Icon name="facebook" /> facebook.com/reboundthegame
       </a>
-      <span>hello (at) hexterion (dot) com</span>
+      <span>
+        <Icon name="envelope" /> hello (at) hexterion (dot) com
+      </span>
     </section>
     <section className="card" id="features">
       <a href="#features">
-        <h2>Game Features</h2>
+        <h2>
+          <Icon name="stars" /> Game Features
+        </h2>
       </a>
 
       <p>
@@ -74,8 +84,9 @@ const SecondPage = () => (
         of maps, Mutators, and gamemodes.
       </p>
 
-      <ul>
+      <ul style={{ marginLeft: 0 }}>
         <li>
+          <Icon name="gamepad" />
           <p>
             <b>Mutators</b>: Change up the rules by changing the behaviour of
             the dodgeballs or through adding new abilities. Instead of
@@ -87,6 +98,7 @@ const SecondPage = () => (
           </p>
         </li>
         <li>
+          <Icon name="users" />
           <p>
             <b>Multiplayer</b>: Play locally and online with up to 4 players.
             Team up with your friends or play free-for-all to see who truly is
@@ -94,6 +106,7 @@ const SecondPage = () => (
           </p>
         </li>
         <li>
+          <Icon name="map" />
           <p>
             <b>Maps</b>: With over 15 unique maps you must adapt quickly to take
             advantage of the new geometry and stage hazards to ensure the win.
@@ -101,14 +114,18 @@ const SecondPage = () => (
           </p>
         </li>
         <li>
+          <Icon name="list" />
           <p>
             <b>Playlists</b>: Create a playlist with any combination of maps and
             Mutators for the ultimate customised experience or play one of the
-            pre-made recommended a themed playlists.
+            pre-made themed playlists.
           </p>
         </li>
-        <li>
-          <b>Bots</b> and single player challenges
+        <li style={{ margin: 0 }}>
+          <Icon name="robot" />
+          <p>
+            <b>Bots</b> and single player challenges
+          </p>
         </li>
       </ul>
     </section>

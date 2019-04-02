@@ -7,6 +7,7 @@ import { Link } from "gatsby"
 const Logo = () => (
   <Link to="/">
     <img className="logo" alt="Rebound Logo" src={logo} />
+    <h1 className="subtitle">DODGEBALL EVOLVED</h1>
   </Link>
 )
 
