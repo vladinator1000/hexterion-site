@@ -54,7 +54,7 @@ const SecondPage = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Icon name="twitter" /> twitter.com/reboundthegame
+        <Icon name="twitter" /> /reboundthegame
       </a>
       <br />
       <a
@@ -62,7 +62,7 @@ const SecondPage = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Icon name="facebook" /> facebook.com/reboundthegame
+        <Icon name="facebook" /> /reboundthegame
       </a>
       <span>
         <Icon name="envelope" /> hello (at) hexterion (dot) com
