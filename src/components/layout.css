@@ -143,3 +143,9 @@ ul {
   margin-left: 1rem;
   margin-bottom: 0;
 }
+
+.shadow {
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+  /* Similar syntax to box-shadow */
+}
