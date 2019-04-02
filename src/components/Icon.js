@@ -2,7 +2,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faSteam, faYoutube } from "@fortawesome/free-brands-svg-icons"
-import { faNewspaper, faGamepad } from "@fortawesome/free-regular-svg-icons"
+import { faNewspaper } from "@fortawesome/free-regular-svg-icons"
+import { faGamepad } from "@fortawesome/pro-regular-svg-icons"
 
 function getIcon(name = "") {
   switch (name.toLowerCase()) {
@@ -12,6 +13,8 @@ function getIcon(name = "") {
       return faYoutube
     case "newspaper":
       return faNewspaper
+    case "gamepad":
+      return faGamepad
     default:
       return faGamepad
   }

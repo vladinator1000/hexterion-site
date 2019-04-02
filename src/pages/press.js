@@ -32,10 +32,9 @@ const SecondPage = () => (
       </a>
     </section>
     <section className="card" id="fact-sheet">
-      <a href="#fact-sheet">
-        <h2>Fact Sheet</h2>
+      <a href="#developer">
+        <h2>Developer</h2>
       </a>
-      <h4>Developer</h4>
       <p>
         We are Hexterion. A studio made up of graduates from Glasgow Caledonian
         University, founded after winning the 2016 Dare to be Digital
@@ -66,19 +65,51 @@ const SecondPage = () => (
         <h2>Game Features</h2>
       </a>
 
+      <p>
+        Rebound Dodgeball Evolved is a fast, competitive, multiplayer Sci-fi
+        themed dodgeball game. The top down camera and twin stick shooter
+        controls makes it easy to just pick up and play however the fast-paced
+        nature of the game gives it a high skill ceiling. Players can team up
+        and play against each other both online and offline with any combination
+        of maps, Mutators, and gamemodes.
+      </p>
+
       <ul>
         <li>
-          Fast-paced, <b>sci-fi dodgeball</b> with a top-down perspective
+          <p>
+            <b>Mutators</b>: Change up the rules by changing the behaviour of
+            the dodgeballs or through adding new abilities. Instead of
+            dodgeballs slowing down over time, Nitro Ball speeds the ball up
+            with each collision resulting in a hectic game that only gets more
+            dangerous over time. Time Glitch throws a spanner in the works by
+            sending everyone back in time to where they were shortly before, pay
+            attention and you can save your past self from a dodgeball!
+          </p>
         </li>
         <li>
-          2-4 players local and online deathmatch <b>multiplayer</b>
+          <p>
+            <b>Multiplayer</b>: Play locally and online with up to 4 players.
+            Team up with your friends or play free-for-all to see who truly is
+            the dodgeball champion.
+          </p>
         </li>
         <li>
-          Rule altering <b>mutators</b> such as bomb ball, tether ball and time
-          glitch
+          <p>
+            <b>Maps</b>: With over 15 unique maps you must adapt quickly to take
+            advantage of the new geometry and stage hazards to ensure the win.
+            Watch out for the teleporters!
+          </p>
         </li>
-        <li>Combine different maps and mutators for deep variety</li>
-        <li>Includes bots and single player challenges</li>
+        <li>
+          <p>
+            <b>Playlists</b>: Create a playlist with any combination of maps and
+            Mutators for the ultimate customised experience or play one of the
+            pre-made recommended a themed playlists.
+          </p>
+        </li>
+        <li>
+          <b>Bots</b> and single player challenges
+        </li>
       </ul>
     </section>
     {/* <section className="card" id="videos">
