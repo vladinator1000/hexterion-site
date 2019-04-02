@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Logo from "../components/Logo/Logo"
+import Icon from "../components/Icon"
 import SEO from "../components/seo"
 
 import CallToAction from "../components/CallToAction"
@@ -15,6 +16,7 @@ const IndexPage = () => (
       keywords={["rebound", "dodgeball", "game", "sci-fi", "scifi"]}
     />
     <Logo />
+    <h1 className="subtitle">DODGEBALL EVOLVED</h1>
 
     <section className="content">
       <p className="description">
@@ -30,9 +32,14 @@ const IndexPage = () => (
           color="primary"
           to="https://www.youtube.com/watch?v=YH5oCHWW4tk"
         >
-          Watch Trailer
+          <Icon name="youtube" /> Watch Trailer
         </CallToAction>
-        <CallToAction to="/press/">Press Kit</CallToAction>
+        <CallToAction external to="https://bit.ly/ReboundSteam">
+          <Icon name="steam" /> Steam
+        </CallToAction>
+        <CallToAction to="/press/">
+          <Icon name="newspaper" /> Press Kit
+        </CallToAction>
       </div>
     </section>
   </Layout>
