@@ -44,6 +44,9 @@ const IndexPage = () => (
           <Icon name="newspaper" /> Press Kit
         </CallToAction>
       </div>
+      <p>
+        Coming soon to <Icon name="desktop" /> PC and <Icon name="xbox" /> Xbox
+      </p>
     </section>
   </Layout>
 )
