@@ -34,7 +34,10 @@ const IndexPage = () => (
         >
           <Icon name="youtube" /> Watch Trailer
         </CallToAction>
-        <CallToAction external to="https://bit.ly/ReboundSteam">
+        <CallToAction
+          external
+          to="https://store.steampowered.com/app/1057560/Rebound_Dodgeball_Evolved/"
+        >
           <Icon name="steam" /> Steam
         </CallToAction>
         <CallToAction to="/press/">
