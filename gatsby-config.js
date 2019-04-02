@@ -3,8 +3,8 @@ module.exports = {
     title: `Rebound Dodgeball Evolved`,
     description: `An intense local multiplayer twin-stick dodgeball game. An out of control mess of crazed rebounding action! There is nowhere to hide with the top down camera, so stay on the move! 2-4 players face off in a free-for-all deathmatch arena. One hit and you’re out`,
     author: `Hexterion`,
-    image: "/images/74.png", // Path to your image you placed in the 'static' folder
     twitterUsername: "@reboundthegame",
+    siteUrl: "hexterion.com",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
