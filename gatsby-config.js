@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Rebound: sci-fi dodgeball`,
+    title: `Rebound Dodgeball Evolved`,
     description: `An intense local multiplayer twin-stick dodgeball game. An out of control mess of crazed rebounding action! There is nowhere to hide with the top down camera, so stay on the move! 2-4 players face off in a free-for-all deathmatch arena. One hit and you’re out`,
     author: `Hexterion`,
+    image: "/images/74.png", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@reboundthegame",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,11 +20,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Rebound Dodgeball Evolved`,
+        short_name: `Rebound`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `black`,
+        theme_color: `#FFB902`,
         display: `minimal-ui`,
         icon: `src/images/Ball_Logo_Transparent.png`, // This path is relative to the root of the site.
       },

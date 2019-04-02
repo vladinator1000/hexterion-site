@@ -20,7 +20,7 @@ function getIcon(name = "") {
 export default function Icon({ name, style }) {
   return (
     <FontAwesomeIcon
-      style={{ maxWidth: 128, height: "auto", ...style }}
+      style={{ maxWidth: 32, height: "auto", ...style }}
       className="shadow"
       icon={getIcon(name)}
     />
