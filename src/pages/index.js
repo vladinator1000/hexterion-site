@@ -1,10 +1,10 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Logo from "../components/Logo/Logo"
 import Icon from "../components/Icon"
 import SEO from "../components/seo"
-import Privacy from "../components/Privacy"
 
 import CallToAction from "../components/CallToAction"
 
@@ -47,7 +47,9 @@ const IndexPage = () => (
       <p>
         Coming soon to <Icon name="desktop" /> PC and <Icon name="xbox" /> Xbox
       </p>
-      <Privacy />
+      <Link style={{ color: "hsla(360, 0%, 46%, 1)" }} to="/privacy">
+        Privacy
+      </Link>
     </section>
   </Layout>
 )
