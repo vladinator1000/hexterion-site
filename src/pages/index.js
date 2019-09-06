@@ -34,18 +34,19 @@ const IndexPage = () => (
         >
           <Icon name="youtube" /> Watch Trailer
         </CallToAction>
-        <CallToAction
-          external
-          to="https://store.steampowered.com/app/1057560/Rebound_Dodgeball_Evolved/"
-        >
+        <CallToAction external to="http://bit.ly/ReboundSteam">
           <Icon name="steam" /> Steam
+        </CallToAction>
+        <CallToAction external to="http://bit.ly/ReboundXbox">
+          <Icon name="xbox" /> Xbox
         </CallToAction>
         <CallToAction to="/press/">
           <Icon name="newspaper" /> Press Kit
         </CallToAction>
       </div>
       <p>
-        Coming soon to <Icon name="desktop" /> PC and <Icon name="xbox" /> Xbox
+        Coming <b>20 September 2019</b> to <Icon name="desktop" /> PC and{" "}
+        <Icon name="xbox" /> Xbox
       </p>
       <Link style={{ color: "hsla(360, 0%, 46%, 1)" }} to="/privacy">
         Privacy
