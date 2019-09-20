@@ -44,10 +44,6 @@ const IndexPage = () => (
           <Icon name="newspaper" /> Press Kit
         </CallToAction>
       </div>
-      <p>
-        Coming <b>20 September 2019</b> to <Icon name="desktop" /> PC and{" "}
-        <Icon name="xbox" /> Xbox
-      </p>
       <Link style={{ color: "hsla(360, 0%, 46%, 1)" }} to="/privacy">
         Privacy
       </Link>
