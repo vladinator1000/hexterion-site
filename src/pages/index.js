@@ -43,10 +43,15 @@ const IndexPage = () => (
         <CallToAction to="/press/">
           <Icon name="newspaper" /> Press Kit
         </CallToAction>
+        <CallToAction to="https://discordapp.com/invite/Fzq8FH">
+          <Icon name="discord" /> Discord
+        </CallToAction>
       </div>
-      <Link style={{ color: "hsla(360, 0%, 46%, 1)" }} to="/privacy">
-        Privacy
-      </Link>
+      <div className="button-group">
+        <Link style={{ color: "hsla(360, 0%, 46%, 1)" }} to="/privacy">
+          Privacy
+        </Link>
+      </div>
     </section>
   </Layout>
 )

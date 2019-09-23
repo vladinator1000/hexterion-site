@@ -7,6 +7,7 @@ import {
   faXbox,
   faTwitter,
   faFacebook,
+  faDiscord,
 } from "@fortawesome/free-brands-svg-icons"
 import {
   faNewspaper,
@@ -61,6 +62,8 @@ function getIcon(name = "") {
       return faFacebook
     case "envelope":
       return faEnvelope
+    case "discord":
+      return faDiscord
     default:
       return faGamepad
   }
