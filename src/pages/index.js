@@ -43,7 +43,7 @@ const IndexPage = () => (
         <CallToAction to="/press/">
           <Icon name="newspaper" /> Press Kit
         </CallToAction>
-        <CallToAction external to="https://discordapp.com/invite/Fzq8FH">
+        <CallToAction external to="https://discordapp.com/invite/pgyTK2C">
           <Icon name="discord" /> Discord
         </CallToAction>
       </div>
